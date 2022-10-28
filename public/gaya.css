@@ -1,0 +1,265 @@
+body{ 
+	box-sizing: content-box;
+	margin: 0;
+	padding: 0;
+	background-color: darkred;
+	/* background-color: purple; */
+	/* background-color: #091353; */
+	transition: background 1.5s, color 1.5s linear;
+}
+
+
+body.dark {
+    background-color: #1f1f1f;
+    color: #fff;
+}
+
+body.dark label {
+	background-color: darkred;
+    /* background-color: #091353; */
+}
+
+.toggle-container {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}
+
+label {
+    background-color: #1f1f1f;
+    color: #fff;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 60%;
+    cursor: pointer;
+    user-select: none;
+    text-align: center;
+	/* margin-left: 5px; */
+    transition: background 0.9s, color 0.9s linear;
+}
+
+input {
+    visibility: hidden;
+}
+
+
+/* ========== */
+.navbar{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: fixed;
+	width: 100%;
+	padding: 10px 10%;
+	/* background-color: #D1E8E4; */
+	background-color: #7C83FD;
+}
+
+
+.twece-brand{
+	font-family: "Quicksand", sans-serif;
+	font-weight: bold;
+	font-size: 25px;
+	color: #091353;
+	text-decoration: none;
+	cursor: pointer;
+	
+}
+
+
+.nav-link{
+	list-style: none;
+	margin-right: 290px;
+	
+}
+
+
+
+.nav-link li{
+	display: inline-block;
+	padding: 0px 25px;
+	
+}
+
+.twece-link{
+	font-family: "Quicksand", sans-serif;
+	font-weight: 500;
+	font-size: 15px;
+	color: #091353;
+	/* text-align: right: 10px; */
+	/* margin-left: 20px; */
+	text-decoration: none;
+	
+}
+
+
+.twece-link:hover::after{
+	content: "";
+	display: block;
+	border-bottom: 3px solid #091353;
+	width: 70%;
+	margin: auto;
+	padding-bottom: 5px;
+	margin-bottom: -8px;
+}
+
+
+/* header */
+.container{
+	padding: 0 10rem;
+	/* margin-top: 80px; */
+}
+
+.main{
+	width: 100%;
+	height: 100vh;
+	background: url(IMG/BG.png);
+	background-size: cover;
+	position: absolute;
+	z-index: -1;
+}
+
+.main-content{
+	display: flex;
+}
+
+.text{
+	padding-top: 12rem;
+}
+
+.banner{
+	margin-top: -225px;
+	margin-left: -50px;
+	margin-right: -100px;
+	float: right;
+}
+
+.text h1{
+	font-family: "Quicksand", sans-serif;
+	font-size: 25px;
+	color: white;
+	font-weight: 500 !important;
+}
+
+
+.deskripsi{
+	font-family: "Quicksand", sans-serif;
+	font-weight: 500;
+	font-size: 15px;
+	margin-bottom: -15px;
+	color: white;
+}
+
+.deskripsi1{
+	font-family: "Quicksand", sans-serif;
+	font-weight: 500;
+	font-size: 15px;
+	margin-top: 10px;
+}
+
+
+.btn{
+	padding: 10px 10%;
+	background-color: #1c5a84;
+	color: white;
+	text-decoration: none;
+	border-radius: 50px;
+	font-family: "Quicksand", sans-serif;
+}
+
+.btn:hover{
+	background-color: white;
+	color: #091353;
+	transition: 0.5%;
+}
+
+.btn2{
+	padding: 10px 6%;
+	background-color: white;
+	color: #091353;
+	margin-left: 10px;
+	text-decoration: none;
+	border-radius: 50px;
+	font-family: "Quicksand", sans-serif;
+}
+
+.btn2:hover{
+	background-color: #1c5a84;
+	color: white;
+	transition: 0.5%;
+}
+
+
+/* content -> Data diri*/
+.rectangle{
+	height: 300px;
+	width: 380px;
+	background: url(IMG/foto.jpg);
+	background-size: cover;
+	border-radius: 80px;
+	margin-top: 1000px;
+	margin-left: 150px;
+	text-align: center;
+	margin-bottom: 100px;
+	position: absolute;
+	z-index: -1;
+}
+
+
+.title{
+	margin-top: 750px;
+	margin-left: 550px;
+	color: white ;
+	font-family: "Quicksand", sans-serif;
+	font-size: 35px;
+	position: absolute;
+	z-index: -1; 
+}
+
+
+.text span{
+	font-weight: bold;
+}
+
+
+.deskripsi2{
+	font-weight: 500;
+	font-size: 18px;
+	margin-top: 10px;
+
+}
+
+
+/* footer */
+.footer{
+	font-family: "Quicksand", sans-serif;
+	color: black;
+	background-color: #7C83FD;
+	margin-top: 750px;
+	position: fixed;
+	left: 0;
+	width: 100%;
+	text-align: center;
+	margin-bottom: 20px;
+	position: absolute;
+	z-index: -1;
+}
+
+.footer2{
+	font-family: "Quicksand", sans-serif;
+	color: red;
+	font-size: 50px;
+	margin-top: 750px;
+	left: -40%;
+	width: 100%;
+	position: absolute;
+}
+
+.icon{
+	color: black;
+	padding: 0 5px;
+}
+
+
+

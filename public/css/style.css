@@ -1,0 +1,113 @@
+
+* {
+    /* font-family: "Zen Antique"; */
+    font-family: "Trebuchet MS";
+    background-color: lightblue;
+    /* background-color: green; */
+    }
+    
+    
+    h1 {
+    text-transform: uppercase;
+    color: black;
+    background-color: white;
+    }
+    
+    
+    table {
+    border: solid 1px white;
+    /* border: solid 1px #DDEEEE; */
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 90%;
+    margin: 10px auto 10px auto;
+    }
+    
+    
+    table thead th {
+    background-color: white;
+    /* background-color: #DDEFEF; */
+    /* border: solid 1px #DDEEEE; */
+    border: solid 1px lightblue;
+    color: #336B6B;
+    padding: 10px;
+    text-align: left;
+    text-shadow: 1px 1px 1px white;
+    /* text-shadow: 1px 1px 1px red; */
+    text-decoration: none;
+    }
+    
+    table tbody td {
+    border: solid 1px white;
+    color: black;
+    padding: 5px;
+    /* padding: 10px; */
+    text-shadow: 1px 1px 1px #fff;
+    }
+    
+    a {
+      background-color: #E1578A;
+      /* background-color: red; */
+      color: white;
+      padding: 6px;
+      border-radius: 10px;
+      text-decoration: none;
+      font-size: 12px;
+    }
+    
+    
+    button {
+        background-color: #E1578A;
+        color: white;
+        padding: 10px;
+        text-decoration: none;
+        font-size: 12px;
+        border: 0px;
+        margin-top: 20px;
+    }
+    
+    label {
+      margin-top: 10px;
+      float: left;
+      text-align: left;
+      width: 100%;
+    }
+    
+    
+    input {
+      padding: 6px;
+      width: 100%;
+      box-sizing: border-box;
+      background: white;
+      border: 2px solid #ccc;
+      outline-color: red;
+    }
+    
+    
+    div {
+      width: 100%;
+      height: auto;
+    }
+    
+    
+    .base {
+      width: 450px;
+      height: auto;
+      padding: 20px;
+      margin-left: auto;
+      margin-right: auto;
+      background: white;
+      /* background: #E1578A; */
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
